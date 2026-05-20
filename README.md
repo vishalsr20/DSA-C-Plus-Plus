@@ -62,142 +62,142 @@ If you're preparing for **campus placements**, **off-campus drives**, or **tech 
 ---
 
 ### 🔢 Arrays
-> 1D, 2D, subarrays, HW problems
+Arrays are the most fundamental data structure — a collection of elements stored at contiguous memory locations. Mastering arrays is the **first step** in any DSA journey. Topics include traversal, searching, sorting, subarray problems, and 2D matrix manipulation.
 
-![Array](https://media.geeksforgeeks.org/wp-content/uploads/20220721080308/array.png)
+**Key concepts:** Linear search, prefix sums, sliding window, Kadane's algorithm, matrix rotation.
 
 ---
 
 ### 🔍 Binary Search
-> Classic search + pivot element
+Binary Search is a powerful technique to search in **O(log n)** time by repeatedly dividing the search space in half. It's not just for sorted arrays — it's a mindset applicable to many optimization problems.
 
-![Binary Search](https://media.geeksforgeeks.org/wp-content/uploads/20220309171621/BinarySearch.png)
+**Key concepts:** Lower/upper bound, pivot element in rotated arrays, search in 2D matrix, binary search on answer.
 
 ---
 
-### 🌳 Binary Search Tree
-> BST insert, delete, traversal
+### 🌳 Binary Search Tree (BST)
+A BST is a binary tree where every left child is smaller and every right child is larger than the parent. It enables fast insert, delete, and search operations in **O(log n)** on average.
 
-![BST](https://media.geeksforgeeks.org/wp-content/uploads/20221128124311/bst.png)
+**Key concepts:** Insertion, deletion, inorder traversal (gives sorted output), LCA, BST validation.
 
 ---
 
 ### 🌲 Binary Tree
-> Tree construction and traversal (inorder, preorder, postorder)
+A Binary Tree is a hierarchical structure where each node has at most two children. It's the foundation for BSTs, heaps, tries, and segment trees — and appears heavily in placement interviews.
 
-![Binary Tree](https://media.geeksforgeeks.org/wp-content/uploads/20221124153010/Untitled22-660x368.png)
+**Key concepts:** Inorder, preorder, postorder traversal, height, diameter, level order BFS, mirror tree.
 
 ---
 
 ### ↩️ Backtracking
-> Generate parentheses (LC #22), N-Queens, Sudoku solver
+Backtracking is an algorithmic technique for solving problems by building solutions incrementally and **abandoning** a path as soon as it's invalid. Think of it as "smart brute force."
 
-![Backtracking](https://media.geeksforgeeks.org/wp-content/uploads/20200901071716/backtrack.png)
+**Key concepts:** Generate parentheses, N-Queens, Sudoku solver, subset/permutation generation, word search.
 
 ---
 
-### ⚙️ Divide & Conquer — Merge Sort
-> Recursive splitting and merging
+### ⚙️ Divide & Conquer
+Divide and Conquer breaks a problem into smaller subproblems, solves each recursively, and combines the results. It's the backbone of many efficient algorithms.
 
-![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/600px-Merge_sort_algorithm_diagram.svg.png)
+**Key concepts:** Merge sort, quick sort, binary search, closest pair of points, matrix multiplication.
 
 ---
 
 ### 📊 Dynamic Programming
-> Classic DP problems — memoization & tabulation
+DP is one of the **most important topics** for placements. It solves complex problems by breaking them into overlapping subproblems and storing results to avoid recomputation.
 
-![DP](https://media.geeksforgeeks.org/wp-content/uploads/20220829090228/DP-660x380.png)
+**Key concepts:** 0/1 Knapsack, Longest Common Subsequence, Coin Change, Matrix Chain Multiplication, DP on trees/grids.
 
 ---
 
 ### 🕸️ Graphs
-> BFS, DFS, connected components, shortest path
+Graphs model real-world relationships — networks, maps, dependencies. They are a **must-know** topic for top tech companies and cover some of the most challenging interview problems.
 
-![Graph](https://media.geeksforgeeks.org/wp-content/uploads/20200630111809/graph18.jpg)
+**Key concepts:** BFS, DFS, Dijkstra's algorithm, topological sort, Union-Find, cycle detection, shortest path.
 
 ---
 
 ### #️⃣ Hashmap
-> Hashing, frequency maps, collision handling
+Hashmaps provide **O(1)** average-time lookups and are the go-to tool for frequency counting, deduplication, and fast lookups in coding interviews.
 
-![Hashmap](https://media.geeksforgeeks.org/wp-content/uploads/20220706082837/hashmap.png)
+**Key concepts:** Frequency maps, two-sum pattern, anagram detection, subarray with given sum, hashing with chaining.
 
 ---
 
 ### 🏔️ Heap
-> Min heap, max heap, priority queue
+A Heap is a complete binary tree that maintains the max or min element at the root. It powers priority queues and is crucial for problems involving "top K elements."
 
-![Heap](https://media.geeksforgeeks.org/wp-content/uploads/20221220165711/MinHeapAndMaxHeap1.png)
+**Key concepts:** Min heap, max heap, heapify, priority queue, Kth largest element, merge K sorted lists.
 
 ---
 
 ### 🔗 Linked List
-> Singly, doubly, reversal, cycle detection
+A Linked List is a linear data structure where each node points to the next. It's a classic interview topic testing pointer manipulation and in-place operations.
 
-![Linked List](https://media.geeksforgeeks.org/wp-content/uploads/20220816144425/LLdrawio.png)
+**Key concepts:** Reversal, cycle detection (Floyd's algorithm), merge two sorted lists, find middle, clone with random pointer.
 
 ---
 
 ### 🗃️ Queue
-> Queue implementation, circular queue, deque (FIFO)
+A Queue follows the **FIFO (First In First Out)** principle. It's widely used in BFS, scheduling, and stream processing problems.
 
-![Queue](https://media.geeksforgeeks.org/wp-content/uploads/20220816162225/Queue.png)
+**Key concepts:** Simple queue, circular queue, deque, sliding window maximum, BFS level-order traversal.
 
 ---
 
 ### 🔁 Recursion
-> Base cases, call stack, tree recursion
+Recursion is the foundation of many DSA topics — trees, graphs, backtracking, and DP all rely on it. Building strong recursion intuition is critical before moving to advanced topics.
 
-![Recursion](https://media.geeksforgeeks.org/wp-content/uploads/20201106130855/recursion.jpg)
+**Key concepts:** Base case design, call stack visualization, tail recursion, tree recursion, recursion vs iteration.
 
 ---
 
 ### 🔀 Sorting Algorithms
-> Bubble, Selection, Insertion, Quick, Merge Sort
+Sorting is a classic topic that tests your understanding of algorithmic complexity. Multiple sorting techniques and their trade-offs are commonly asked in interviews.
 
-![Sorting](https://media.geeksforgeeks.org/wp-content/uploads/20230614163629/Sorting-Algorithms.png)
+**Key concepts:** Bubble sort, selection sort, insertion sort, merge sort **O(n log n)**, quick sort, counting sort.
 
 ---
 
 ### 📚 Stack
-> Stack operations, balanced brackets, monotonic stack (LIFO)
+A Stack follows the **LIFO (Last In First Out)** principle. It's used to solve problems involving nested structures, expression evaluation, and monotonic sequences.
 
-![Stack](https://media.geeksforgeeks.org/wp-content/uploads/20220714004311/Stack-660x566.png)
+**Key concepts:** Balanced parentheses, next greater element, stock span problem, min stack, monotonic stack.
 
 ---
 
 ### 🔤 Strings
-> Char arrays, palindrome, adjacent duplicate removal
+String problems are extremely common in interviews. They test your ability to manipulate characters, patterns, and substrings efficiently.
 
-![String](https://media.geeksforgeeks.org/wp-content/uploads/20220823155846/image.png)
+**Key concepts:** Palindrome check, anagram detection, string reversal, adjacent duplicate removal, sliding window on strings.
 
 ---
 
 ### 🌐 Tries
-> Trie insert, search, prefix matching, autocomplete
+A Trie (Prefix Tree) is a tree-based data structure ideal for storing strings and solving prefix-based problems efficiently. It's used in autocomplete, spell check, and IP routing.
 
-![Trie](https://media.geeksforgeeks.org/wp-content/uploads/20220828232752/Triedatastructure1.png)
+**Key concepts:** Insert, search, startsWith, longest common prefix, word dictionary, maximum XOR.
 
 ---
 
 ### 👉 Two Pointer / Sliding Window
-> Fast & slow pointer, window shrink/expand
+Two Pointer and Sliding Window are powerful patterns that reduce **O(n²)** brute-force solutions down to **O(n)**. These patterns appear in almost every placement coding round.
 
-![Two Pointer](https://media.geeksforgeeks.org/wp-content/uploads/20220620130433/output.png)
+**Key concepts:** Pair with given sum, container with most water, longest substring without repeating chars, trapping rain water.
 
 ---
 
 ### ➕ Prefix Sum
-> Range sum queries using prefix arrays
+Prefix Sum is a preprocessing technique that answers range queries in **O(1)** after an **O(n)** build step. It's simple but extremely effective in interviews.
 
-![Prefix Sum](https://media.geeksforgeeks.org/wp-content/uploads/20220811154228/Prefix-660x368.png)
+**Key concepts:** Range sum queries, subarray with given sum, 2D prefix sum, difference arrays.
 
 ---
 
-### 🔢 Pointer (C++)
-> Pointer arithmetic, references, memory in C++
+### 🔢 Pointers (C++)
+Pointers are a core C++ concept that give you direct control over memory. Understanding pointers is essential for writing efficient C++ code and is often tested in C++-specific interviews.
 
-![Pointer](https://media.geeksforgeeks.org/wp-content/uploads/20230223170531/Types-of-Pointers-in-C.png)
+**Key concepts:** Pointer arithmetic, null pointers, pointer to pointer, references vs pointers, dynamic memory allocation.
 
 ---
 
