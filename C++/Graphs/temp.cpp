@@ -70,7 +70,42 @@ class Graph{
                 }
             }
         }
+
+    bool isCycleHelper(int src , int par, vector<bool>&visited){
+        visited[src] = true;
+        list<int>neigh = li[src];
+
+        for(auto it:neigh){
+            if(!visited[it]){
+                if(isCycleHelper(it,src,visited)){
+                    return true;
+                }
+            }else if(it != par){
+                return true;
+            }
+        }
+
+        return false;
+
+
+
+    }
+
+    bool isCycle(){
+        vector<bool>visited(V,false);
+        for(int i=0; i<V; i++){
+            if(!visited[i]){
+                if(isCycleHelper(i,-1,visited)){
+                    return true;
+                }
+            }
+        }
+        return false;
+
+    }
 };
+
+  
 
 int main(){
 
@@ -82,11 +117,15 @@ int main(){
 
    
 
-    g.print();
-    cout<<"BFS : "<<endl;;
-    g.bfs();
-    cout<<endl;
-    cout<<"DFS : "<<endl;
-    g.dfs();
+    // g.print();
+    // cout<<"BFS : "<<endl;;
+    // g.bfs();
+    // cout<<endl;
+    // cout<<"DFS : "<<endl;
+    // g.dfs();
+    cout<<endl<<"Cycle Detection using the BFS UNI"<<endl;
+    cout<<g.isCycle();
+
+
     return 0;
 }
